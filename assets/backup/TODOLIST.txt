@@ -1,0 +1,65 @@
+1. Form Validation
+2. Logo dan Nama Menu
+3. Connection
+4. Integrasi FPDF
+5. Buat Wizzard
+    1. Form Pengajuan Tempat KP
+    2. Form pengjuan Kelompok KP
+
+TODO TERBARU :
+    1. fungsi button hapus
+    2. tampil tabel detail KP
+    3. RAPIHIN PHP di Step-2
+    4. buat Alert untuk Pengisian Data Anggota Sudah Penuh
+
+
+
+
+    Backup :
+
+
+FORM ADMIN
+
+Saat surat ditolak, jangan langsung dihapus. status pengajuan akan berubah menjadi ditolak dengan pesan, kemudian diberikan kesempatan untuk melakukan pengajuan ulang.
+
+
+
+
+    
+    <!-- MODAL -->
+
+                                                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Detail Mahasiswa</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="form-group">
+                                                                    <label for="NIM">NIM Mahasiswa</label>
+                                                                    <input type="text" name="NIM" class="form-control" id="NIM" placeholder="Tampil NIM Mahasiswa" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="namaMahasiswa">Nama Mahasiswa</label>
+                                                                    <input type="text" name="namaMahasiswa" class="form-control" id="namaMahasiswa" placeholder="Tampil Nama Mahasiswa" required>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="statusKP">Status</label>
+                                                                    <select class="form-control">
+                                                                        <option>Status</option>
+                                                                        <option>Co-Leader</option>
+                                                                        <option>Anggota</option>
+                                                                    </select>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                <button type="button" class="btn btn-primary">Tambah Anggota</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>

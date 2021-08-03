@@ -1,0 +1,54 @@
+[{
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117124",
+            "nama": "DHIKA NOVIANSYAH",
+            "email": null,
+            "password": "admin"
+        }
+    },
+    {
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117125",
+            "nama": "RIEFKY RAMADHAN",
+            "email": "riefky_ramadhan@email.unikom.ac.id",
+            "password": "admin"
+        }
+    },
+    {
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117126",
+            "nama": "BAMBANG SUBAMBANG",
+            "email": "Bapaqkaulah@email.unikom.ac.id",
+            "password": "admin"
+        }
+    },
+    {
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117127",
+            "nama": "JOKO SUTOYO",
+            "email": "jokoh@email.unikom.ac.id",
+            "password": "admin"
+        }
+    },
+    {
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117128",
+            "nama": "JOKO BAMBANG",
+            "email": "jokoh@email.unikom.ac.id",
+            "password": "admin"
+        }
+    }, {
+        "STATUS": "OK",
+        "MAHASISWA": {
+            "nim": "10117129",
+            "nama": "JOKO SUSILO SUTOYO",
+            "email": "jokoh@email.unikom.ac.id",
+            "password": "admin"
+        }
+    }
+]
